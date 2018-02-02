@@ -8,4 +8,18 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!--Theme for the buttons-->
+    <style name="Bisponet.button.theme" parent="Base.TextAppearance.AppCompat.Button">
+        <item name="android:textSize">12sp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="Bisponet.textView.Style" parent="TextAppearance.AppCompat">
+        <item name="textSize">40dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center</item>
+    </style>
+
 </resources>

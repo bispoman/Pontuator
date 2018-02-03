@@ -4,6 +4,7 @@ import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.view.Window;
 import android.widget.Button;
 import android.widget.TextView;
 
@@ -17,7 +18,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        getSupportActionBar().hide();
+
         displayingNumber = (TextView)  findViewById(R.id.display);
+
         b1 = (Button) findViewById(R.id.btn_1);
         b2 = (Button) findViewById(R.id.btn_2);
         b3 = (Button) findViewById(R.id.btn_3);

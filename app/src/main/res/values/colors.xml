@@ -3,6 +3,8 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="btnStartColor">@color/colorPrimary</color>
-    <color name="btnEndColor">@color/colorPrimaryDark</color>
+    <color name="btnStartColor">#FFF001</color>
+    <color name="btnEndColor">#FD1999</color>
+    <color name="appBgStart">#00E6FE</color>
+    <color name="appBgEnd">#A10EEC</color>
 </resources>
